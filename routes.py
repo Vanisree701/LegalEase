@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 
-from ai_core.gemini_generator import GeminiDocumentGenerator
+from .ai_core.gemini_generator import GeminiDocumentGenerator
 from backend.schemas import DocumentRequest, DocumentResponse
 
 
